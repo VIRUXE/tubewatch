@@ -1,0 +1,23 @@
+{
+	"name"       : "tubewatch",
+	"version"    : "1.0.0",
+	"description": "Discord bot for tracking YouTube channels and videos",
+	"main"       : "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/index.js",
+		"dev"  : "ts-node src/index.ts",
+		"watch": "tsc -w"
+	},
+	"dependencies": {
+		"discord.js": "^14.16.3",
+		"mysql2": "^3.11.4",
+		"googleapis": "^144.0.0",
+		"dotenv": "^16.4.5"
+	},
+	"devDependencies": {
+		"@types/node": "^22.9.0",
+		"typescript": "^5.6.3",
+		"ts-node": "^10.9.2"
+	}
+}
